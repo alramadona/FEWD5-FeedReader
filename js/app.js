@@ -20,6 +20,9 @@ var allFeeds = [
     }, {
         name: 'Linear Digressions',
         url: 'http://feeds.feedburner.com/udacity-linear-digressions'
+    }, {
+        name: 'KDnuggets',
+        url: 'http://feeds.feedburner.com/kdnuggets-data-mining-analytics'
     }
 ];
 
