@@ -1,6 +1,6 @@
 # Feed Reader Testing
 ## Project Overview
-This project contains a web-based RSS feeds reads application that using [Jasmine](http://jasmine.github.io/) testing suite. Open **index.html** file to open the application and execute the tests.
+This project contains a web-based RSS feeds reader application utilizes [Jasmine](http://jasmine.github.io/) testing suite. Open the **index.html** file to open the application and execute the tests.
 
 ## Files
 * `.\css\`
@@ -37,7 +37,7 @@ This project contains a web-based RSS feeds reads application that using [Jasmin
     * is hidden by default
     * visibility changes when the menu icon is clicked
 * Initial Entries
-    * loaded with at least one entry element within the feed container
+    * be loaded with at least one entry element within the feed container
 * New Feed Selection
     * the content changes when a new feed is loaded
 
