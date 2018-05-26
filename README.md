@@ -27,19 +27,18 @@ This project contains a web-based RSS feeds reader application utilizes [Jasmine
     * app.js
 * `index.html`
 
-## Tests
+## Suites and Specs
 * RSS Feeds
-    * each has a URL defined
-        * the URL is not empty
-    * each has a name defined
-        * the name is not empty
+    * are defined
+    * all has defined URL
+    * all has defined name
 * The menu
     * is hidden by default
-    * visibility changes when the menu icon is clicked
+    * visibility changes when clicked
 * Initial Entries
-    * be loaded with at least one entry element within the feed container
+    * loaded with at least one entry
 * New Feed Selection
-    * the content changes when a new feed is loaded
+    * do not match previous loaded feed
 
 ## Credits
 The repository for the starter code can be found on [Github](http://github.com/udacity/frontend-nanodegree-feedreader).

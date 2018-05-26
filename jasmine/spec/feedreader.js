@@ -16,10 +16,7 @@ $(function() {
     describe('RSS Feeds', function() {
         /* This is our first test - it tests to make sure that the
          * allFeeds variable has been defined and that it is not
-         * empty. Experiment with this before you get started on
-         * the rest of this project. What happens when you change
-         * allFeeds in app.js to be an empty array and refresh the
-         * page?
+         * empty.
          */
         it('are defined', function() {
             // Test that allFeeds is defined
@@ -28,7 +25,6 @@ $(function() {
             // Test that allFeeds' length is greater than Zero
             expect(allFeeds.length).toBeGreaterThan(0);
         });
-
 
         /* TODO: Write a test that loops through each feed
          * in the allFeeds object and ensures it has a URL defined
@@ -51,7 +47,6 @@ $(function() {
             });
         });
 
-
         /* TODO: Write a test that loops through each feed
          * in the allFeeds object and ensures it has a name defined
          * and that the name is not empty.
@@ -66,12 +61,11 @@ $(function() {
             expect(allFeeds).toBeDefined();
 
             allFeeds.forEach((feed) => {
-                // Test that name is defined & not empty on the feed entry
+                // Test that name is defined and not empty on the feed entry
                 expect(feed.name).toBeTruthy();
             });
         });
     });
-
 
     /* TODO: Write a new test suite named "The menu" */
 
@@ -97,7 +91,6 @@ $(function() {
             // Test that class 'menu-header' exists
             expect($('body').hasClass("menu-hidden")).toBe(true);
         });
-
 
         it('visibility changes when clicked', function () {
             // Trigger click on the menu icon to open it
@@ -128,7 +121,6 @@ $(function() {
             // load the first feed
             loadFeed(0, done);
         });
-
 
         it('loaded with at least one entry', function (done) {
             // Test that '.feed' element has at least one '.entry' element
@@ -167,9 +159,8 @@ $(function() {
             });
         });
 
-
         //
-        // Test that the values saved for the first feed & the second feed do not match
+        // Test that the values saved for the first feed and the second feed do not match
         //
         it('do not match previous loaded feed', function (done) {
             expect(feedOneName).toBeDefined();
